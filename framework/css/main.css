@@ -1,0 +1,87 @@
+* {
+	/*border: 1px solid red !important;*/
+	margin: 0px;
+	padding: 0px;
+}
+*{
+	font-family: 'Engagement', cursive;
+	margin: 0px;
+}
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px){
+}
+hr{
+	border-top: 4px solid #EEE;
+}
+span.rollover {
+	opacity: 1;
+	-o-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition: -webkit-transform 1s;
+	background:url(../images/mag.png) center center no-repeat #000;
+	cursor: pointer;
+	height: 93%;
+	width: 86%;
+	position: absolute;
+	z-index: 10;
+	opacity: 0;
+}
+
+span.rollover:hover {
+	opacity: .7;
+	-o-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition: -webkit-transform 1s;
+	-webkit-box-shadow: 0px 0px 4px #000;
+	-moz-box-shadow: 0px 0px 4px #000;
+	box-shadow: 0px 0px 4px #000;
+}
+a{
+	font-size:25px;
+}
+h1{
+	color: black;
+	padding-right: 3%;
+}
+h2{
+	color: black;
+	padding-right: 3%
+}
+p{
+	font-size: 24px;
+    padding: 2% 15% 2% 16%;
+}
+body{
+	
+}
+.header {
+	padding-right: 0px;
+}
+.creative{
+	height: 200px;
+    width: 100%;
+}
+.headerTitle{
+	text-align: right;
+	
+}
+.artSec{
+	text-align: center;
+    padding: 10px;
+}
+.descrip{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.navV{
+	margin-left: 10%;
+}
+.custModal{
+	top :10%;
+}
